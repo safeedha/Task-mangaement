@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+   await mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/taskmanager")
     console.log("MongoDB connected successfully");
 
     app.listen(PORT, () => {

@@ -15,7 +15,7 @@ Run the backend server:node server.js
 Install frontend dependencies:
 npm install
 Create a .env file inside the frontend folder and add:
-VITE_API_URL=http://localhost:5000/api/tasks(it it not there)
+VITE_API_URL=http://localhost:5000/api/tasks(if it not there)
 
 
 Future Improvements:

@@ -6,7 +6,7 @@ Install dependencies:
 npm install
 Create a .env file inside the backend folder and add:
 PORT=5000
-MONGO_URL=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
 Run the backend server:node server.js
 
 
